@@ -3,9 +3,8 @@
 # Full guide available at http://trevorstephens.com/
 
 # Set working directory and import datafiles
-setwd("~/Kaggle/Titanic")
-train <- read.csv("train.csv")
-test <- read.csv("test.csv")
+train <- read.csv("data/train.csv")
+test <- read.csv("data/test.csv")
 
 # Examine structure of dataframe
 str(train)
